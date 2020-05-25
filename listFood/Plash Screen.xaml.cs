@@ -1,6 +1,7 @@
 ﻿using listFood;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,7 +29,7 @@ namespace Test_Splash_Screen
         {
             InitializeComponent();
             dt.Tick += new EventHandler(dT_Tick);
-            dt.Interval = new TimeSpan(0, 0, 5);
+            dt.Interval = new TimeSpan(0, 0, 3);
             dt.Start();
         }
         private void dT_Tick(object sender, EventArgs e)
@@ -45,10 +46,7 @@ namespace Test_Splash_Screen
         /// <param name="e"></param>
         private void Check(object sender, RoutedEventArgs e)
         {
-            if (Change.IsChecked == true)
-            {
-
-            }
+           
         }
     }
 }
