@@ -1,0 +1,70 @@
+﻿<Window x:Class="listFood.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:listFood"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+        <materialDesign:ColorZone
+  Mode="PrimaryMid"
+  Padding="16">
+            <DockPanel>
+                <StackPanel
+      Orientation="Horizontal"
+      materialDesign:RippleAssist.IsCentered="True">
+
+                    <materialDesign:ColorZone
+        Mode="Standard"
+        Padding="8 4 8 4"
+        CornerRadius="20"
+        Panel.ZIndex="1"
+        Margin="16 0 0 0"
+        materialDesign:ShadowAssist.ShadowDepth="Depth1" Width="374">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="19*"/>
+                                <RowDefinition Height="13*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition
+              Width="Auto" />
+                                <ColumnDefinition
+              Width="*" />
+                                <ColumnDefinition
+              Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <Button
+            Style="{DynamicResource MaterialDesignToolButton}" Grid.RowSpan="2">
+                                <materialDesign:PackIcon
+              Kind="Magnify"
+              Opacity=".56" Height="22" Width="22" />
+                            </Button>
+                            <TextBox
+            Grid.Column="1"
+            Margin="8,4,0,4"
+            materialDesign:HintAssist.Hint="Nhập từ khoá để tìm công thức..."
+            materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
+            BorderThickness="0"
+            MinWidth="200"
+            VerticalAlignment="Center" Grid.RowSpan="2" />
+                           
+                        </Grid>
+                    </materialDesign:ColorZone>
+
+                </StackPanel>
+            </DockPanel>
+        </materialDesign:ColorZone>
+
+    </Grid>
+</Window>
