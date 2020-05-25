@@ -58,13 +58,23 @@
             BorderThickness="0"
             MinWidth="200"
             VerticalAlignment="Center" Grid.RowSpan="2" />
-                           
+
                         </Grid>
                     </materialDesign:ColorZone>
-                  
+
                 </StackPanel>
             </DockPanel>
         </materialDesign:ColorZone>
+        <Ellipse Height="120" Width="120" 
+                 Margin="35,0,638.333,183.667" HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                 Fill="#AA381F"/>
+        <Ellipse Height="120" Width="120" 
+                 Margin="35,0,638.333,31.667" HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                 Fill="#AA381F"/>
+        <Image Source="/img/Canh.png" Height="120" Width="120" Margin="43,0,630.333,189.667" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
+        <Image Source="/img/Vit_nuong.png" Height="120" Width="120" Margin="43,0,630.333,37.667" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
+        <Image Source="/img/star-1.png" Height="30" Width="30" Margin="133,111,630.333,279.667" />
+        <Image Source="/img/star-1.png" Height="30" Width="30" Margin="133,263,630.333,127.667" />
 
     </Grid>
 </Window>
