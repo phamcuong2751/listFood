@@ -1,4 +1,5 @@
-﻿using System;
+﻿using listFood;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -32,7 +33,7 @@ namespace Test_Splash_Screen
         }
         private void dT_Tick(object sender, EventArgs e)
         {
-            MainWindow hr = new MainWindow();
+            Home hr = new Home();
             hr.Show();
             dt.Stop();
             this.Close();
