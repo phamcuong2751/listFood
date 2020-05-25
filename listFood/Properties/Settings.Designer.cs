@@ -26,5 +26,7 @@ namespace listFood.Properties
                 return defaultInstance;
             }
         }
+
+        public bool? Backup { get; internal set; }
     }
 }
