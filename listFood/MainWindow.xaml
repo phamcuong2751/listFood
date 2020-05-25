@@ -61,7 +61,9 @@
                            
                         </Grid>
                     </materialDesign:ColorZone>
+
                     <TextBlock Text="hello"></TextBlock>
+
                 </StackPanel>
             </DockPanel>
         </materialDesign:ColorZone>
