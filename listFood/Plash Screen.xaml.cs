@@ -29,7 +29,7 @@ namespace Test_Splash_Screen
         {
             InitializeComponent();
             dt.Tick += new EventHandler(dT_Tick);
-            dt.Interval = new TimeSpan(0, 0, 3);
+            dt.Interval = new TimeSpan(0, 0, 5);
             dt.Start();
         }
         private void dT_Tick(object sender, EventArgs e)
