@@ -37,7 +37,11 @@ namespace Test_Splash_Screen
             dt.Stop();
             this.Close();
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Check(object sender, RoutedEventArgs e)
         {
             if (Change.IsChecked == true)
