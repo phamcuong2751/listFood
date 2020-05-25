@@ -1,0 +1,33 @@
+﻿<Window x:Class="Test_Splash_Screen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test_Splash_Screen"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None"
+        Title="MainWindow" Height="600" Width="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image Source="/img/Asset 1.png"  Margin="0,-16,0,-14" />
+        <TextBlock Text="WELCOME TO APP" FontSize="30" Margin="50,30,40,497" TextAlignment="Center" FontFamily="Caveman"/>
+        <TextBlock Text="FOOD RECIPE" FontSize="30" Margin="50,80,50,447" TextAlignment="Center" FontFamily="Caveman"/>
+        <TextBlock Text="Phở" FontFamily="UTM Arruba KT" FontSize="80" Margin="178,124,157,331"></TextBlock>
+        <Image Source="/img/Asset 3.png" Margin="134,236,140,131"/>
+        <TextBlock Margin="89,462,84,-22" FontSize="30" FontWeight="Bold"><Run Text=" Món ngon Việt Nam"/><LineBreak/><Run Text=" trên bản đồ ẩm thực "/><LineBreak/><Run Text="           Thế Giới"/></TextBlock>
+        <CheckBox Content="Không hiển thị lần sau" Name="Change" Click="Check" IsChecked="False" Margin="331,554,-1,15" FontWeight="Bold">
+            <CheckBox.Style>
+                <Style TargetType="{x:Type CheckBox}">
+                    <Setter Property="Visibility" Value="Visible"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding ElementName=CommentCheckBox, Path=IsChecked}" Value="True">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </CheckBox.Style>
+        </CheckBox>
+    </Grid>
+</Window>
