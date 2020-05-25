@@ -34,5 +34,9 @@ namespace listFood
         {
            // Cường Ngu
         }
+
+        private void Window_Load(object sender, RoutedEventArgs e)
+        {
+        }
     }
 }
