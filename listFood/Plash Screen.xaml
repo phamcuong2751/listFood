@@ -16,7 +16,7 @@
         <TextBlock Text="FOOD RECIPE" FontSize="30" Margin="50,80,50,447" TextAlignment="Center" FontFamily="Caveman"/>
         <TextBlock Text="Phở" FontFamily="UTM Arruba KT" FontSize="80" Margin="178,124,157,331"></TextBlock>
         <Image Source="/img/Asset 3.png" Margin="134,236,140,131"/>
-        <TextBlock Margin="89,462,84,-22" FontSize="30" FontWeight="Bold"><Run Text=" Món ngon Việt Nam"/><LineBreak/><Run Text=" trên bản đồ ẩm thực "/><LineBreak/><Run Text="           Thế Giới"/></TextBlock>
+        <TextBlock Margin="89,462,84,0" FontSize="30" FontWeight="Bold"><Run Text=" Món ngon Việt Nam"/><LineBreak/><Run Text=" trên bản đồ ẩm thực "/><LineBreak/><Run Text="           Thế Giới"/></TextBlock>
         <CheckBox Content="Không hiển thị lần sau" Name="Change" Click="Check" IsChecked="False" Margin="331,554,-1,15" FontWeight="Bold">
             <CheckBox.Style>
                 <Style TargetType="{x:Type CheckBox}">
