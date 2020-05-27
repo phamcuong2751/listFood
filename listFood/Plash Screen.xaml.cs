@@ -30,8 +30,6 @@ namespace Test_Splash_Screen
         string dataFile = "";
         public MainWindow()
         {
-
-
             string folder = AppDomain.CurrentDomain.BaseDirectory; // "C:\Users\dev\"
             folder = folder.Remove(folder.IndexOf("bin"));
             dataFile = $"{folder}Data\\data.txt";
