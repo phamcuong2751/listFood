@@ -4,21 +4,28 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Test_Splash_Screen"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None"
         Closed="Window_Closing"
-        Title="Windows1" Height="600" Width="500">
+        Title="Windows1" Height="450" Width="720">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Image Source="/img/Asset 1.png"  Margin="0,-16,0,-14" />
-        <TextBlock Text="WELCOME TO APP" FontSize="30" Margin="50,30,40,497" TextAlignment="Center" FontFamily="Caveman"/>
-        <TextBlock Text="FOOD RECIPE" FontSize="30" Margin="50,80,50,447" TextAlignment="Center" FontFamily="Caveman"/>
-        <TextBlock Text="Phở" FontFamily="UTM Arruba KT" FontSize="80" Margin="178,124,157,331"></TextBlock>
-        <Image Source="/img/Asset 3.png" Margin="134,236,140,131"/>
-        <TextBlock Margin="89,462,84,0" FontSize="30" FontWeight="Bold"><Run Text=" Món ngon Việt Nam"/><LineBreak/><Run Text=" trên bản đồ ẩm thực "/><LineBreak/><Run Text="           Thế Giới"/></TextBlock>
-        <CheckBox Content="Không hiển thị lần sau" Name="Change" Click="Check" IsChecked="False" Margin="331,554,-1,15" FontWeight="Bold">
+        <Button Panel.ZIndex="100" materialDesign:ShadowAssist.ShadowDepth="Depth5"
+        Style="{StaticResource MaterialDesignFloatingActionButton}" materialDesign:ButtonProgressAssist.IsIndicatorVisible="True" 
+        materialDesign:ButtonProgressAssist.Value="75"
+        materialDesign:ButtonProgressAssist.IsIndeterminate="True"
+        Content="Loading" FontSize="10" FontWeight="ExtraLight" Height="40" Margin="224,316,446,84" Width="40" 
+        materialDesign:ButtonProgressAssist.IndicatorForeground ="#AA381F" materialDesign:ButtonProgressAssist.Maximum="100" 
+        
+        RenderTransformOrigin="1.167,1.333" Background="LightGray" Foreground="Black"  BorderBrush="LightGray"  />
+        <Image Source="/img/Untitled-1.png"/>
+        <Image Source="/img/Asset 3.png" Width="100" Height="auto" Margin="440,164,180,194" />
+        <TextBlock FontSize="40" Margin="412,91,160,312" TextAlignment="Center" Text="PHỞ" FontWeight="DemiBold" FontFamily="UVN Bo Quen"/>
+        <Label Content="Món ngon Việt Nam" Margin="396,268,116,136" FontSize="20" FontWeight="DemiBold"></Label>
+        <TextBlock FontSize="20" Margin="124,96,320,321" TextAlignment="Center" FontFamily="Caveman" Text="WELCOME TO "/>
+        <TextBlock FontSize="35" Margin="126,130,318,278" TextAlignment="Center" FontFamily="Caveman" Text="APP "/>
+        <TextBlock FontSize="40" Margin="112,206,318,122" TextAlignment="Center" FontFamily="Caveman"><Run Text="FOOD "/><LineBreak/><Run Text="RECIPE"/></TextBlock>
+        <CheckBox  Content="Không hiển thị lần sau"  Name="Change" Click="Check" IsChecked="False" Margin="458,364,94,58" FontWeight="Bold" >
             <CheckBox.Style>
                 <Style TargetType="{x:Type CheckBox}">
                     <Setter Property="Visibility" Value="Visible"/>

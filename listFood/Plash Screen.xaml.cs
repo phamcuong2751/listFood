@@ -81,5 +81,30 @@ namespace Test_Splash_Screen
         {
             
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_StylusButtonDown(object sender, StylusButtonEventArgs e)
+        {
+
+        }
+
+        private void ProgressBar_ColorChanged(object sender, RoutedPropertyChangedEventArgs<Color> e)
+        {
+
+        }
     }
 }
