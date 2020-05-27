@@ -1,6 +1,9 @@
 ﻿using listFood;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,13 +26,27 @@ namespace Test_Splash_Screen
     public partial class MainWindow : Window
     {
         DispatcherTimer dt = new DispatcherTimer();
-
+        ObservableCollection<string> newChecked = new ObservableCollection<string>();
+        string dataFile = "";
         public MainWindow()
         {
+            string folder = AppDomain.CurrentDomain.BaseDirectory; // "C:\Users\dev\"
+            dataFile = $"{folder}data.txt";
+            var isChecked = File.ReadAllText(dataFile);
             InitializeComponent();
-            dt.Tick += new EventHandler(dT_Tick);
-            dt.Interval = new TimeSpan(0, 0, 5);
-            dt.Start();
+            if(isChecked == "false")
+            {
+                dt.Tick += new EventHandler(dT_Tick);
+                dt.Interval = new TimeSpan(0, 0, 5);
+                dt.Start();
+            }
+            else
+            {
+                Home hr = new Home();
+                hr.Show();
+                this.Close();
+            }
+           
         }
         private void dT_Tick(object sender, EventArgs e)
         {
@@ -45,10 +62,23 @@ namespace Test_Splash_Screen
         /// <param name="e"></param>
         private void Check(object sender, RoutedEventArgs e)
         {
-            if (Change.IsChecked == true)
+           if(Change.IsChecked == true)
             {
-
+                string newData = "true";
+                File.WriteAllText(dataFile, newData);
             }
+            else
+            {
+                string newData = "fasle";
+                File.WriteAllText(dataFile, newData);
+            }
+        }
+
+
+
+        private void Window_Closing(object sender, EventArgs e)
+        {
+            
         }
     }
 }

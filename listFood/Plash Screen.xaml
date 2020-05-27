@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:Test_Splash_Screen"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None"
+        Closed="Window_Closing"
         Title="Windows1" Height="600" Width="500">
     <Grid>
         <Grid.ColumnDefinitions>

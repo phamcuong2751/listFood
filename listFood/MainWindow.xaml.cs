@@ -33,11 +33,13 @@ namespace listFood
         /// new code
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-           // Cường Ngu
+
         }
+
 
         private void Window_Load(object sender, RoutedEventArgs e)
         {
         }
+
     }
 }
