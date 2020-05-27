@@ -22,9 +22,9 @@
         <Image Source="/img/Asset 3.png" Width="100" Height="auto" Margin="440,164,180,194" />
         <TextBlock FontSize="40" Margin="412,91,160,312" TextAlignment="Center" Text="PHỞ" FontWeight="DemiBold" FontFamily="UVN Bo Quen"/>
         <Label Content="Món ngon Việt Nam" Margin="396,268,116,136" FontSize="20" FontWeight="DemiBold"></Label>
-        <TextBlock FontSize="20" Margin="124,96,320,321" TextAlignment="Center" FontFamily="Caveman" Text="WELCOME TO "/>
-        <TextBlock FontSize="35" Margin="126,130,318,278" TextAlignment="Center" FontFamily="Caveman" Text="APP "/>
-        <TextBlock FontSize="40" Margin="112,206,318,122" TextAlignment="Center" FontFamily="Caveman"><Run Text="FOOD "/><LineBreak/><Run Text="RECIPE"/></TextBlock>
+        <TextBlock FontSize="20" Margin="124,96,320,321" TextAlignment="Center" FontFamily="Font/#Caveman" Text="WELCOME TO "/>
+        <TextBlock FontSize="35" Margin="126,130,318,278" TextAlignment="Center" FontFamily="Font/#Caveman" Text="APP "/>
+        <TextBlock FontSize="40" Margin="112,206,318,122" TextAlignment="Center" FontFamily="Font/#Caveman"><Run Text="FOOD "/><LineBreak/><Run Text="RECIPE"/></TextBlock>
         <CheckBox  Content="Không hiển thị lần sau"  Name="Change" Click="Check" IsChecked="False" Margin="458,364,94,58" FontWeight="Bold" >
             <CheckBox.Style>
                 <Style TargetType="{x:Type CheckBox}">
