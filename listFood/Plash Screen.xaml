@@ -8,7 +8,8 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None"
         Closed="Window_Closing"
-        Title="Windows1" Height="450" Width="720">
+        Title="Windows1" Height="450" Width="720"
+        FontFamily ="./Font/#somefont" >
     <Grid>
         <Button Panel.ZIndex="100" materialDesign:ShadowAssist.ShadowDepth="Depth5"
         Style="{StaticResource MaterialDesignFloatingActionButton}" materialDesign:ButtonProgressAssist.IsIndicatorVisible="True" 
@@ -16,7 +17,6 @@
         materialDesign:ButtonProgressAssist.IsIndeterminate="True"
         Content="Loading" FontSize="10" FontWeight="ExtraLight" Height="40" Margin="224,316,446,84" Width="40" 
         materialDesign:ButtonProgressAssist.IndicatorForeground ="#AA381F" materialDesign:ButtonProgressAssist.Maximum="100" 
-        
         RenderTransformOrigin="1.167,1.333" Background="LightGray" Foreground="Black"  BorderBrush="LightGray"  />
         <Image Source="/img/Untitled-1.png"/>
         <Image Source="/img/Asset 3.png" Width="100" Height="auto" Margin="440,164,180,194" />
