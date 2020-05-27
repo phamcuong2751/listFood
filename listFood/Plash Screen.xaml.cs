@@ -30,21 +30,24 @@ namespace Test_Splash_Screen
         string dataFile = "";
         public MainWindow()
         {
+
+
             string folder = AppDomain.CurrentDomain.BaseDirectory; // "C:\Users\dev\"
-            dataFile = $"{folder}data.txt";
+            folder = folder.Remove(folder.IndexOf("bin"));
+            dataFile = $"{folder}Data\\data.txt";
             var isChecked = File.ReadAllText(dataFile);
             InitializeComponent();
-            if(isChecked == "false")
-            {
-                dt.Tick += new EventHandler(dT_Tick);
-                dt.Interval = new TimeSpan(0, 0, 5);
-                dt.Start();
-            }
-            else
+            if(isChecked == "true")
             {
                 Home hr = new Home();
                 hr.Show();
                 this.Close();
+            }
+            else
+            {
+                dt.Tick += new EventHandler(dT_Tick);
+                dt.Interval = new TimeSpan(0, 0, 5);
+                dt.Start();
             }
            
         }
