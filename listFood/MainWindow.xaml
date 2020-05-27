@@ -17,7 +17,7 @@
 
     <Grid>
         <materialDesign:ColorZone
-  Mode="PrimaryMid"
+  Mode="PrimaryMid" Background="#AA381F"
   Padding="16">
             <DockPanel>
                 <StackPanel
@@ -65,14 +65,16 @@
                 </StackPanel>
             </DockPanel>
         </materialDesign:ColorZone>
-        <Ellipse Height="120" Width="120" 
-                 Margin="35,0,638.333,183.667" HorizontalAlignment="Center" VerticalAlignment="Bottom"
-                 Fill="#AA381F"/>
-        <Ellipse Height="120" Width="120" 
-                 Margin="35,0,638.333,31.667" HorizontalAlignment="Center" VerticalAlignment="Bottom"
-                 Fill="#AA381F"/>
-        <Image Source="/img/Canh.png" Height="120" Width="120" Margin="43,0,630.333,189.667" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
-        <Image Source="/img/Vit_nuong.png" Height="120" Width="120" Margin="43,0,630.333,37.667" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
+        <Canvas>
+            <Ellipse Height="120" Width="123" HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                 Fill="#AA381F" Canvas.Left="31" Canvas.Top="116"/>
+        </Canvas>
+        <Canvas>
+            <Ellipse Height="120" Width="126" HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                 Fill="#AA381F" Canvas.Left="34" Canvas.Top="264"/>
+        </Canvas>
+        <Image Source="/img/Canh.png" Height="120" Width="131" Margin="36,0,625,185" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
+        <Image Source="/img/Vit_nuong.png" Height="120" Width="146" Margin="30,0,616,38" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
         <Image Source="/img/star-1.png" Height="30" Width="30" Margin="133,111,630.333,279.667" />
         <Image Source="/img/star-1.png" Height="30" Width="30" Margin="133,263,630.333,127.667" />
 
