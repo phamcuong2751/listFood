@@ -18,7 +18,8 @@
     <Canvas>
         <materialDesign:ColorZone
   Mode= "PrimaryLight"
-  Padding="16" Width="843" Background="#AA381F">
+  Padding="16" Width="843"
+            Background="#AA381F">
             <DockPanel>
                 <StackPanel
       Orientation="Horizontal"
