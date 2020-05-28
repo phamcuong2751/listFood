@@ -123,6 +123,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Microsoft\Office.cs" />
     <Compile Include="Plash Screen.xaml.cs">
       <DependentUpon>Plash Screen.xaml</DependentUpon>
     </Compile>
