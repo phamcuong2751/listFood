@@ -51,10 +51,9 @@ namespace listFood
                 var package = new ExcelPackage(new FileInfo("aaa.xlsx"));
 
 
-                // lấy ra sheet đầu tiên để thao tác
-                ExcelWorksheet worksheet = package.Workbook.Worksheets();
 
-            }
+        private void Window_Load(object sender, RoutedEventArgs e)
+        {
         }
 
     }
