@@ -1,0 +1,35 @@
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\obj\Debug\listFood.csprojAssemblyReference.cache
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\obj\Debug\MainWindow.g.cs
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\obj\Debug\Plash Screen.g.cs
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\obj\Debug\App.g.cs
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\obj\Debug\listFood_Content.g.cs
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\obj\Debug\listFood_MarkupCompile.cache
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\obj\Debug\listFood_MarkupCompile.lref
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\bin\Debug\Font\CAVEMAN.TTF
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\bin\Debug\listFood.exe.config
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\bin\Debug\listFood.exe
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\bin\Debug\listFood.pdb
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\bin\Debug\Aspose.Cells.dll
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\bin\Debug\Aspose.Words.dll
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\bin\Debug\MaterialDesignColors.dll
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\bin\Debug\Syncfusion.Compression.Base.dll
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\bin\Debug\Syncfusion.XlsIO.Base.dll
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\bin\Debug\WebDriver.dll
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\bin\Debug\Syncfusion.Compression.Base.xml
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\bin\Debug\Syncfusion.XlsIO.Base.xml
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\bin\Debug\WebDriver.xml
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\obj\Debug\App.baml
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\obj\Debug\MainWindow.baml
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\obj\Debug\Plash Screen.baml
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\obj\Debug\listFood.g.resources
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\obj\Debug\listFood.Properties.Resources.resources
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\obj\Debug\listFood.csproj.GenerateResource.cache
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\obj\Debug\listFood.csproj.CoreCompileInputs.cache
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\obj\Debug\listFood.csproj.CopyComplete
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\obj\Debug\listFood.exe
+C:\Users\Quyet_Cute\Source\Repos\listFood\listFood\obj\Debug\listFood.pdb
