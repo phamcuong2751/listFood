@@ -45,13 +45,11 @@ namespace listFood
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             List<Food> listFoods = new List<Food>();
-            try
-            {
-                // mở file excel
-                var package = new ExcelPackage(new FileInfo("\\data\\listFood.xlsx"));
-                // lấy ra sheet đầu tiên để thao tác
-                ExcelWorksheet workSheet = package.Workbook.Worksheets[1];
-            }
+            Excel.Application xlApp = new Excel.Application();
+            Excel.Workbook xlWorkbook = xlApp.Workbooks.Open(@"sandbox_test.xlsx");
+            Excel._Worksheet xlWorksheet = xlWorkbook.Sheets[1];
+            Excel.Range xlRange = xlWorksheet.UsedRange;
+            
         }
     }
 }

@@ -108,6 +108,10 @@
     <Compile Include="ExcelDataService.cs" />
     <Compile Include="ExcelPackage.cs" />
     <Compile Include="ExcelWorksheet.cs" />
+    <Compile Include="Excel\Application.cs" />
+    <Compile Include="Excel\Range.cs" />
+    <Compile Include="Excel\Workbook.cs" />
+    <Compile Include="Excel\_Worksheet.cs" />
     <Compile Include="Food.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
