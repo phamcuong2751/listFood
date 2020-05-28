@@ -21,7 +21,7 @@ namespace listFood
     /// </summary>
     public partial class Home : Window
     {
-       public class Food
+        public class Food
         {
             public int ID { get; set; }
             public string nameOfFood { get; set; }
@@ -38,23 +38,21 @@ namespace listFood
         /// <param name="sender"></param>
         /// <param name="e"></param>
         /// new code
-       
 
 
-      
+
+
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             List<Food> listFoods = new List<Food>();
             try
             {
                 // mở file excel
-                var package = new ExcelPackage(new FileInfo("aaa.xlsx"));
-
-
-
-        private void Window_Load(object sender, RoutedEventArgs e)
-        {
+                var package = new ExcelPackage(new FileInfo("\\data\\listFood.xlsx"));
+                // lấy ra sheet đầu tiên để thao tác
+                ExcelWorksheet workSheet = package.Workbook.Worksheets[1];
+            }
         }
-
     }
 }
+
